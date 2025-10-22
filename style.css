@@ -1,0 +1,43 @@
+/* Seção principal */
+#inicio {
+    background-color: #e0f7fa;
+    text-align: center;       /* centraliza texto e imagem */
+    padding: 40px 20px;       /* espaço interno equilibrado */
+    border-radius: 12px;
+    margin: 20px auto;        /* centraliza a seção na página */
+    max-width: 800px;         /* limita a largura máxima */
+}
+
+/* Título principal */
+#inicio h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+    color: #00796b;
+}
+
+/* Subtítulo */
+#inicio h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #004d40;
+}
+
+/* Parágrafos */
+#inicio p {
+    font-size: 16px;
+    color: #004d40;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto 10px auto;
+}
+
+/* Imagem do Hero */
+#inicio img {
+    width: 200px;         /* tamanho da imagem */
+    height: 200px;
+    object-fit: cover;    /* mantém proporção */
+    border-radius: 50%;   /* deixa redonda */
+    display: block;       /* permite centralizar */
+    margin: 20px auto 0 auto; /* centraliza e dá espaço acima */
+    border: 4px solid #00796b; /* borda verde */
+}
